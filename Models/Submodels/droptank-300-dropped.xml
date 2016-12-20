@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+    <!-- Model drop droptank that is being dropped as a submodel -->
+
+	<path>droptank-300.ac</path>
+
+    <!-- disable collisions -->
+    <animation>
+      <enable-hot type="bool">false</enable-hot>
+    </animation>
+
+    <!-- Don't display the mount - that stays on the aircraft -->
+	<animation>
+	  <type>select</type>
+	  <object-name>Cube</object-name>
+	  <condition>
+		<equals>
+		  <property>controls/armament/station[3]/release-stick</property>
+		  <value>false</value>
+		</equals>
+	  </condition>
+	</animation>
+
+	<animation>
+		<type>range</type>
+		<min-m>0</min-m>
+		<max-m>500</max-m>
+	</animation>
+
+</PropertyList>
