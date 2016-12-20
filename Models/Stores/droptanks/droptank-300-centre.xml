@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+	<path>droptank-300.ac</path>
+
+	<animation>
+	  <type>select</type>
+	  <object-name>DropTank</object-name>
+	  <condition>
+		<equals>
+		  <property>controls/armament/station[2]/release-stick</property>
+		  <value>false</value>
+		</equals>
+	  </condition>
+	</animation>
+
+	<animation>
+		<type>range</type>
+		<min-m>0</min-m>
+		<max-m>500</max-m>
+	</animation>
+
+</PropertyList>
