@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+	<name>triple-MK-82-LD</name>
+	<path>MK-82-LD-ter.ac</path>
+
+	<animation>
+		<type>select</type>
+		<nopreview/>
+		<object-name>mk82-1</object-name>
+		<condition>
+			<equals>
+				<property>controls/armament/station[1]/release-stick-1</property>
+				<value>0</value>
+			</equals>
+		</condition>
+	</animation>
+
+	<animation>
+		<type>select</type>
+		<nopreview/>
+		<object-name>mk82-2</object-name>
+		<condition>
+			<equals>
+				<property>controls/armament/station[1]/release-stick-2</property>
+				<value>0</value>
+			</equals>
+		</condition>
+	</animation>
+
+	<animation>
+		<type>select</type>
+		<nopreview/>
+		<object-name>mk82-3</object-name>
+		<condition>
+			<equals>
+				<property>controls/armament/station[1]/release-stick-3</property>
+				<value>0</value>
+			</equals>
+		</condition>
+	</animation>
+
+</PropertyList>
