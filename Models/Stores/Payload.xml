@@ -1,0 +1,1981 @@
+<?xml version="1.0"?>
+
+
+<PropertyList>
+
+
+
+<!-- Pylon 1 L -->
+
+
+
+	<model>
+
+		<name>AGM-65 Maverick 1L</name>
+
+		<path>Aircraft/A-4K/Models/Stores/AGM-65/AGM-65.xml</path>
+
+		<offsets>
+
+			<x-m>6.47595</x-m>
+
+			<y-m>-2.10884</y-m>
+
+			<z-m>-0.495</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<model>
+
+		<name>AGM-65 Maverick 1L</name>
+
+		<path>Aircraft/A-4K/Models/Stores/AGM-65/AGM-65_holder.xml</path>
+
+		<offsets>
+
+			<x-m>6.47595</x-m>
+
+			<y-m>-2.10884</y-m>
+
+			<z-m>-0.34</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<animation>
+
+		<type>select</type>
+
+		<object-name>AGM-65 Maverick 1L</object-name>
+
+		<condition>
+
+			<and>
+
+				<equals>
+
+					<property>sim/weight[0]/selected</property>
+
+					<value>AGM-65 Maverick</value>
+
+				</equals>
+
+			</and>
+
+		</condition>
+
+	</animation>
+
+	<model>
+
+		<name>2x MK-83 HE 1L</name>
+
+		<path>Aircraft/A-4K/Models/Stores/mk83/mk83.xml</path>
+
+		<offsets>
+
+			<x-m>6.47595</x-m>
+
+			<y-m>-2.10</y-m>
+
+			<z-m>-0.74</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<model>
+
+		<name>2x MK-83 HE 1L</name>
+
+		<path>Aircraft/A-4K/Models/Stores/mk83/mk83.xml</path>
+
+		<offsets>
+
+			<x-m>6.47595</x-m>
+
+			<y-m>-2.40</y-m>
+
+			<z-m>-0.41</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+	<model>
+
+		<name>2x MK-83 HE 1L</name>
+
+		<path>Aircraft/A-4K/Models/Stores/tri-holder.xml</path>
+
+		<offsets>
+
+			<x-m>6.64595</x-m>
+
+			<y-m>-2.13384</y-m>
+
+			<z-m>-0.11089</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<animation>
+
+		<type>select</type>
+
+		<object-name>2x MK-83 HE 1L</object-name>
+
+		<condition>
+
+			<and>
+
+				<equals>
+
+					<property>sim/weight[0]/selected</property>
+
+					<value>2x MK-83 HE</value>
+
+				</equals>
+
+			</and>
+
+		</condition>
+
+	</animation>
+
+	<model>
+
+		<name>2x MK-82 HE 1L</name>
+
+		<path>Aircraft/A-4K/Models/Stores/Mk82/mk82.xml</path>
+
+		<offsets>
+
+			<x-m>6.47595</x-m>
+
+			<y-m>-2.10</y-m>
+
+			<z-m>-0.71</z-m>
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<model>
+
+		<name>2x MK-82 HE 1L</name>
+
+		<path>Aircraft/A-4K/Models/Stores/Mk82/mk82.xml</path>
+
+		<offsets>
+
+			<x-m>6.47595</x-m>
+
+			<y-m>-2.40</y-m>
+
+			<z-m>-0.38</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+	<model>
+
+		<name>2x MK-82 HE 1L</name>
+
+		<path>Aircraft/A-4K/Models/Stores/tri-holder.xml</path>
+
+		<offsets>
+
+			<x-m>6.64595</x-m>
+
+			<y-m>-2.13384</y-m>
+
+			<z-m>-0.11089</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<animation>
+
+		<type>select</type>
+
+		<object-name>2x MK-82 HE 1L</object-name>
+
+		<condition>
+
+			<and>
+
+				<equals>
+
+					<property>sim/weight[0]/selected</property>
+
+					<value>2x MK-82 HE</value>
+
+				</equals>
+
+			</and>
+
+		</condition>
+
+	</animation>
+
+	<model>
+
+		<name>2x SUU-44 Flare Dispenser 1L</name>
+
+		<path>Aircraft/A-4K/Models/Stores/SUU-44/SUU-44.xml</path>
+
+		<offsets>
+
+			<x-m>6.47595</x-m>
+
+			<y-m>-2.10884</y-m>
+
+			<z-m>-0.73658</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<model>
+
+		<name>2x SUU-44 Flare Dispenser 1L</name>
+
+		<path>Aircraft/A-4K/Models/Stores/SUU-44/SUU-44.xml</path>
+
+		<offsets>
+
+			<x-m>6.47595</x-m>
+
+			<y-m>-2.40884</y-m>
+
+			<z-m>-0.40089</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<model>
+
+		<name>2x SUU-44 Flare Dispenser 1L</name>
+
+		<path>Aircraft/A-4K/Models/Stores/tri-holder.xml</path>
+
+		<offsets>
+
+			<x-m>6.64595</x-m>
+
+			<y-m>-2.13384</y-m>
+
+			<z-m>-0.11089</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<animation>
+
+		<type>select</type>
+
+		<object-name>2x SUU-44 Flare Dispenser 1L</object-name>
+
+		<condition>
+
+			<and>
+
+				<equals>
+
+					<property>sim/weight[0]/selected</property>
+
+					<value>2x SUU-44 Flare Dispenser</value>
+
+				</equals>
+
+			</and>
+
+		</condition>
+
+	</animation>
+	<model>
+
+		<name>AIM-9 Sidewinder 1L</name>
+
+		<path>Aircraft/A-4K/Models/Stores/AIM-9/aim-9.xml</path>
+
+		<offsets>
+
+			<x-m>6.47595</x-m>
+
+			<y-m>-2.10884</y-m>
+
+			<z-m>-0.45089</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<model>
+
+		<name>AIM-9 Sidewinder 1L</name>
+
+		<path>Aircraft/A-4K/Models/Stores/AIM-9/AIM-9_holder.xml</path>
+
+		<offsets>
+
+			<x-m>6.64595</x-m>
+
+			<y-m>-2.10884</y-m>
+
+			<z-m>-0.41089</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<animation>
+
+		<type>select</type>
+
+		<object-name>AIM-9 Sidewinder 1L</object-name>
+
+		<condition>
+
+			<and>
+
+				<equals>
+
+					<property>sim/weight[0]/selected</property>
+
+					<value>AIM-9 Sidewinder</value>
+
+				</equals>
+
+			</and>
+
+		</condition>
+
+	</animation>
+	<model>
+
+		<name>2x LAU-5003 1L</name>
+
+		<path>Aircraft/A-4K/Models/Stores/LAU-5003/LAU-5003.xml</path>
+
+		<offsets>
+
+			<x-m>6.47595</x-m>
+
+			<y-m>-2.10</y-m>
+
+			<z-m>-0.74</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<model>
+
+		<name>2x LAU-5003 1L</name>
+
+		<path>Aircraft/A-4K/Models/Stores/LAU-5003/LAU-5003.xml</path>
+
+		<offsets>
+
+			<x-m>6.47595</x-m>
+
+			<y-m>-2.425</y-m>
+
+			<z-m>-0.41</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+	<model>
+
+		<name>2x LAU-5003 1L</name>
+
+		<path>Aircraft/A-4K/Models/Stores/tri-holder.xml</path>
+
+		<offsets>
+
+			<x-m>6.64595</x-m>
+
+			<y-m>-2.13384</y-m>
+
+			<z-m>-0.11089</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<animation>
+
+		<type>select</type>
+
+		<object-name>2x LAU-5003 1L</object-name>
+
+		<condition>
+
+			<and>
+
+				<equals>
+
+					<property>sim/weight[0]/selected</property>
+
+					<value>2x LAU-5003</value>
+
+				</equals>
+
+			</and>
+
+		</condition>
+
+	</animation>
+
+	<model>
+
+		<name>Fuel droptank 1L</name>
+
+		<path>Aircraft/A-4K/Models/Stores/droptanks/droptank-300-left.xml</path>
+
+		<offsets>
+
+			<x-m>6.47595</x-m>
+
+			<y-m>-2.10884</y-m>
+
+			<z-m>-0.0</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<animation>
+
+		<type>select</type>
+
+		<object-name>Fuel droptank 1L</object-name>
+
+		<condition>
+
+			<and>
+
+				<equals>
+
+					<property>sim/weight[0]/selected</property>
+
+					<value>Fuel droptank</value>
+
+				</equals>
+
+			</and>
+
+		</condition>
+
+	</animation>
+
+
+<!-- Pylon 2 L -->
+
+
+
+
+	<model>
+
+		<name>AGM-65 Maverick 2L</name>
+
+		<path>Aircraft/A-4K/Models/Stores/AGM-65/AGM-65.xml</path>
+
+		<offsets>
+
+			<x-m>7.35886</x-m>
+
+			<y-m>-2.9281</y-m>
+
+			<z-m>-0.4539</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<model>
+
+		<name>AGM-65 Maverick 2L</name>
+
+		<path>Aircraft/A-4K/Models/Stores/AGM-65/AGM-65_holder.xml</path>
+
+		<offsets>
+
+			<x-m>7.35886</x-m>
+
+			<y-m>-2.9281</y-m>
+
+			<z-m>-0.3039</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<animation>
+
+		<type>select</type>
+
+		<object-name>AGM-65 Maverick 2L</object-name>
+
+		<condition>
+
+			<and>
+
+				<equals>
+
+					<property>sim/weight[1]/selected</property>
+
+					<value>AGM-65 Maverick</value>
+
+				</equals>
+
+			</and>
+
+		</condition>
+
+	</animation>
+	<model>
+
+		<name>MK-82 HE 2L</name>
+
+		<path>Aircraft/A-4K/Models/Stores/Mk82/mk82.xml</path>
+
+		<offsets>
+
+			<x-m>7.35886</x-m>
+
+			<y-m>-2.9281</y-m>
+
+			<z-m>-0.3289</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<animation>
+
+		<type>select</type>
+
+		<object-name>MK-82 HE 2L</object-name>
+
+		<condition>
+
+			<and>
+
+				<equals>
+
+					<property>sim/weight[1]/selected</property>
+
+					<value>MK-82 HE</value>
+
+				</equals>
+
+			</and>
+
+		</condition>
+
+	</animation>
+	<model>
+
+		<name>SUU-44 Flare Dispenser 2L</name>
+
+		<path>Aircraft/A-4K/Models/Stores/SUU-44/SUU-44.xml</path>
+
+		<offsets>
+
+			<x-m>7.35886</x-m>
+
+			<y-m>-2.9281</y-m>
+
+			<z-m>-0.3039</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<animation>
+
+		<type>select</type>
+
+		<object-name>SUU-44 Flare Dispenser 2L</object-name>
+
+		<condition>
+
+			<and>
+
+				<equals>
+
+					<property>sim/weight[1]/selected</property>
+
+					<value>SUU-44 Flare Dispenser</value>
+
+				</equals>
+
+			</and>
+
+		</condition>
+
+	</animation>
+	<model>
+
+		<name>AIM-9 Sidewinder 2L</name>
+
+		<path>Aircraft/A-4K/Models/Stores/AIM-9/aim-9.xml</path>
+
+		<offsets>
+
+			<x-m>7.35886</x-m>
+
+			<y-m>-2.9281</y-m>
+
+			<z-m>-0.4200</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<model>
+
+		<name>AIM-9 Sidewinder 2L</name>
+
+		<path>Aircraft/A-4K/Models/Stores/AIM-9/AIM-9_holder.xml</path>
+
+		<offsets>
+
+			<x-m>7.53000</x-m>
+
+			<y-m>-2.9281</y-m>
+
+			<z-m>-0.3800</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+	<animation>
+
+		<type>select</type>
+
+		<object-name>AIM-9 Sidewinder 2L</object-name>
+
+		<condition>
+
+			<and>
+
+				<equals>
+
+					<property>sim/weight[1]/selected</property>
+
+					<value>AIM-9 Sidewinder</value>
+
+				</equals>
+
+			</and>
+
+		</condition>
+
+	</animation>
+	<model>
+
+		<name>LAU-5003 2L</name>
+
+		<path>Aircraft/A-4K/Models/Stores/LAU-5003/LAU-5003.xml</path>
+
+		<offsets>
+
+			<x-m>7.35886</x-m>
+
+			<y-m>-2.9281</y-m>
+
+			<z-m>-0.3789</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<animation>
+
+		<type>select</type>
+
+		<object-name>LAU-5003 2L</object-name>
+
+		<condition>
+
+			<and>
+
+				<equals>
+
+					<property>sim/weight[1]/selected</property>
+
+					<value>LAU-5003</value>
+
+				</equals>
+
+			</and>
+
+		</condition>
+
+	</animation>
+
+
+<!-- Pylon Center -->
+
+
+
+	<model>
+
+		<name>3x MK-83 HE C</name>
+
+		<path>Aircraft/A-4K/Models/Stores/mk83/mk83.xml</path>
+
+		<offsets>
+
+			<x-m>6.02110</x-m>
+
+			<y-m>0.0</y-m>
+
+			<z-m>-1.01658</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<model>
+
+		<name>3x MK-83 HE C</name>
+
+		<path>Aircraft/A-4K/Models/Stores/mk83/mk83.xml</path>
+
+		<offsets>
+
+			<x-m>6.02110</x-m>
+
+			<y-m>-0.3</y-m>
+
+			<z-m>-0.68658</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+	<model>
+
+		<name>3x MK-83 HE C</name>
+
+		<path>Aircraft/A-4K/Models/Stores/mk83/mk83.xml</path>
+
+		<offsets>
+
+			<x-m>6.02110</x-m>
+
+			<y-m>0.3</y-m>
+
+			<z-m>-0.68658</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+	<model>
+
+		<name>3x MK-83 HE C</name>
+
+		<path>Aircraft/A-4K/Models/Stores/tri-holder.xml</path>
+
+		<offsets>
+
+			<x-m>6.02110</x-m>
+
+			<y-m>-0.02500</y-m>
+
+			<z-m>-0.39089</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<animation>
+
+		<type>select</type>
+
+		<object-name>3x MK-83 HE C</object-name>
+
+		<condition>
+
+			<and>
+
+				<equals>
+
+					<property>sim/weight[2]/selected</property>
+
+					<value>3x MK-83 HE</value>
+
+				</equals>
+
+			</and>
+
+		</condition>
+
+	</animation>
+	<model>
+
+		<name>3x MK-82 HE C</name>
+
+		<path>Aircraft/A-4K/Models/Stores/Mk82/triple-MK-82-LD-right.xml</path>
+
+		<offsets>
+
+			<x-m>6.02110</x-m>
+
+			<y-m>-0.02500</y-m>
+
+			<z-m>-0.39089</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<animation>
+
+		<type>select</type>
+
+		<object-name>3x MK-82 HE C</object-name>
+
+		<condition>
+
+			<and>
+
+				<equals>
+
+					<property>sim/weight[2]/selected</property>
+
+					<value>3x MK-82 HE</value>
+
+				</equals>
+
+			</and>
+
+		</condition>
+
+	</animation>
+	<model>
+
+		<name>3x SUU-44 Flare Dispenser</name>
+
+		<path>Aircraft/A-4K/Models/Stores/SUU-44/SUU-44.xml</path>
+
+		<offsets>
+
+			<x-m>6.02110</x-m>
+
+			<y-m>0.0</y-m>
+
+			<z-m>-1.01658</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<model>
+
+		<name>3x SUU-44 Flare Dispenser</name>
+
+		<path>Aircraft/A-4K/Models/Stores/SUU-44/SUU-44.xml</path>
+
+		<offsets>
+
+			<x-m>6.02110</x-m>
+
+			<y-m>-0.3</y-m>
+
+			<z-m>-0.68658</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+	<model>
+
+		<name>3x SUU-44 Flare Dispenser</name>
+
+		<path>Aircraft/A-4K/Models/Stores/SUU-44/SUU-44.xml</path>
+
+		<offsets>
+
+			<x-m>6.02110</x-m>
+
+			<y-m>0.3</y-m>
+
+			<z-m>-0.68658</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+	<model>
+
+		<name>3x SUU-44 Flare Dispenser</name>
+
+		<path>Aircraft/A-4K/Models/Stores/tri-holder.xml</path>
+
+		<offsets>
+
+			<x-m>6.02110</x-m>
+
+			<y-m>-0.02500</y-m>
+
+			<z-m>-0.39089</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<animation>
+
+		<type>select</type>
+
+		<object-name>3x SUU-44 Flare Dispenser</object-name>
+
+		<condition>
+
+			<and>
+
+				<equals>
+
+					<property>sim/weight[2]/selected</property>
+
+					<value>3x SUU-44 Flare Dispenser</value>
+
+				</equals>
+
+			</and>
+
+		</condition>
+
+	</animation>
+	<model>
+
+		<name>3x LAU-5003 C</name>
+
+		<path>Aircraft/A-4K/Models/Stores/LAU-5003/LAU-5003.xml</path>
+
+		<offsets>
+
+			<x-m>6.02110</x-m>
+
+			<y-m>0.0</y-m>
+
+			<z-m>-1.01658</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<model>
+
+		<name>3x LAU-5003 C</name>
+
+		<path>Aircraft/A-4K/Models/Stores/LAU-5003/LAU-5003.xml</path>
+
+		<offsets>
+
+			<x-m>6.02110</x-m>
+
+			<y-m>-0.3</y-m>
+
+			<z-m>-0.68658</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+	<model>
+
+		<name>3x LAU-5003 C</name>
+
+		<path>Aircraft/A-4K/Models/Stores/LAU-5003/LAU-5003.xml</path>
+
+		<offsets>
+
+			<x-m>6.02110</x-m>
+
+			<y-m>0.3</y-m>
+
+			<z-m>-0.68658</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+	<model>
+
+		<name>3x LAU-5003 C</name>
+
+		<path>Aircraft/A-4K/Models/Stores/tri-holder.xml</path>
+
+		<offsets>
+
+			<x-m>6.02110</x-m>
+
+			<y-m>-0.02500</y-m>
+
+			<z-m>-0.39089</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<animation>
+
+		<type>select</type>
+
+		<object-name>3x LAU-5003 C</object-name>
+
+		<condition>
+
+			<and>
+
+				<equals>
+
+					<property>sim/weight[2]/selected</property>
+
+					<value>3x LAU-5003</value>
+
+				</equals>
+
+			</and>
+
+		</condition>
+
+	</animation>
+	
+	<model>
+
+		<name>Buddy Refueling Pod C</name>
+
+		<path>Aircraft/A-4K/Models/Stores/BRefueling_pod/BRefueling_pod.xml</path>
+
+		<offsets>
+
+			<x-m>6.02110</x-m>
+
+			<y-m>0.0</y-m>
+
+			<z-m>-0.78658</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<animation>
+
+		<type>select</type>
+
+		<object-name>Buddy Refueling Pod C</object-name>
+
+		<condition>
+
+			<and>
+
+				<equals>
+
+					<property>sim/weight[2]/selected</property>
+
+					<value>Buddy Refueling Pod</value>
+
+				</equals>
+
+			</and>
+
+		</condition>
+
+	</animation>
+
+	<model>
+
+		<name>Fuel droptank C</name>
+
+		<path>Aircraft/A-4K/Models/Stores/droptanks/droptank-300-centre.xml</path>
+
+		<offsets>
+
+			<x-m>6.02110</x-m>
+
+			<y-m>0.0</y-m>
+
+			<z-m>0.0</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<animation>
+
+		<type>select</type>
+
+		<object-name>Fuel droptank C</object-name>
+
+		<condition>
+
+			<and>
+
+				<equals>
+
+					<property>sim/weight[2]/selected</property>
+
+					<value>Fuel droptank</value>
+
+				</equals>
+
+			</and>
+
+		</condition>
+
+	</animation>
+	
+
+<!-- Pylon 1 R -->
+
+
+	<model>
+
+		<name>AGM-65 Maverick 1R</name>
+
+		<path>Aircraft/A-4K/Models/Stores/AGM-65/AGM-65.xml</path>
+
+		<offsets>
+
+			<x-m>6.47595</x-m>
+
+			<y-m>2.10884</y-m>
+
+			<z-m>-0.495</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<model>
+
+		<name>AGM-65 Maverick 1R</name>
+
+		<path>Aircraft/A-4K/Models/Stores/AGM-65/AGM-65_holder.xml</path>
+
+		<offsets>
+
+			<x-m>6.47595</x-m>
+
+			<y-m>2.10884</y-m>
+
+			<z-m>-0.34</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<animation>
+
+		<type>select</type>
+
+		<object-name>AGM-65 Maverick 1R</object-name>
+
+		<condition>
+
+			<and>
+
+				<equals>
+
+					<property>sim/weight[3]/selected</property>
+
+					<value>AGM-65 Maverick</value>
+
+				</equals>
+
+			</and>
+
+		</condition>
+
+	</animation>
+
+	<model>
+
+		<name>2x MK-83 HE 1R</name>
+
+		<path>Aircraft/A-4K/Models/Stores/mk83/mk83.xml</path>
+
+		<offsets>
+
+			<x-m>6.47595</x-m>
+
+			<y-m>2.10</y-m>
+
+			<z-m>-0.74</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<model>
+
+		<name>2x MK-83 HE 1R</name>
+
+		<path>Aircraft/A-4K/Models/Stores/mk83/mk83.xml</path>
+
+		<offsets>
+
+			<x-m>6.47595</x-m>
+
+			<y-m>2.40</y-m>
+
+			<z-m>-0.41</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+	<model>
+
+		<name>2x MK-83 HE 1R</name>
+
+		<path>Aircraft/A-4K/Models/Stores/tri-holder.xml</path>
+
+		<offsets>
+
+			<x-m>6.64595</x-m>
+
+			<y-m>2.08384</y-m>
+
+			<z-m>-0.11089</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<animation>
+
+		<type>select</type>
+
+		<object-name>2x MK-83 HE 1R</object-name>
+
+		<condition>
+
+			<and>
+
+				<equals>
+
+					<property>sim/weight[3]/selected</property>
+
+					<value>2x MK-83 HE</value>
+
+				</equals>
+
+			</and>
+
+		</condition>
+
+	</animation>
+
+	<model>
+
+		<name>2x MK-82 HE 1R</name>
+
+		<path>Aircraft/A-4K/Models/Stores/Mk82/mk82.xml</path>
+
+		<offsets>
+
+			<x-m>6.47595</x-m>
+
+			<y-m>2.10</y-m>
+
+			<z-m>-0.71</z-m>
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<model>
+
+		<name>2x MK-82 HE 1R</name>
+
+		<path>Aircraft/A-4K/Models/Stores/Mk82/mk82.xml</path>
+
+		<offsets>
+
+			<x-m>6.47595</x-m>
+
+			<y-m>2.40</y-m>
+
+			<z-m>-0.38</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+	<model>
+
+		<name>2x MK-82 HE 1R</name>
+
+		<path>Aircraft/A-4K/Models/Stores/tri-holder.xml</path>
+
+		<offsets>
+
+			<x-m>6.64595</x-m>
+
+			<y-m>2.08384</y-m>
+
+			<z-m>-0.11089</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<animation>
+
+		<type>select</type>
+
+		<object-name>2x MK-82 HE 1R</object-name>
+
+		<condition>
+
+			<and>
+
+				<equals>
+
+					<property>sim/weight[3]/selected</property>
+
+					<value>2x MK-82 HE</value>
+
+				</equals>
+
+			</and>
+
+		</condition>
+
+	</animation>
+
+	<model>
+
+		<name>2x SUU-44 Flare Dispenser 1R</name>
+
+		<path>Aircraft/A-4K/Models/Stores/SUU-44/SUU-44.xml</path>
+
+		<offsets>
+
+			<x-m>6.47595</x-m>
+
+			<y-m>2.10884</y-m>
+
+			<z-m>-0.73658</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<model>
+
+		<name>2x SUU-44 Flare Dispenser 1R</name>
+
+		<path>Aircraft/A-4K/Models/Stores/SUU-44/SUU-44.xml</path>
+
+		<offsets>
+
+			<x-m>6.47595</x-m>
+
+			<y-m>2.40884</y-m>
+
+			<z-m>-0.40089</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<model>
+
+		<name>2x SUU-44 Flare Dispenser 1R</name>
+
+		<path>Aircraft/A-4K/Models/Stores/tri-holder.xml</path>
+
+		<offsets>
+
+			<x-m>6.64595</x-m>
+
+			<y-m>2.13384</y-m>
+
+			<z-m>-0.11089</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+	
+	<animation>
+
+		<type>select</type>
+
+		<object-name>2x SUU-44 Flare Dispenser 1R</object-name>
+
+		<condition>
+
+			<and>
+
+				<equals>
+
+					<property>sim/weight[3]/selected</property>
+
+					<value>2x SUU-44 Flare Dispenser</value>
+
+				</equals>
+
+			</and>
+
+		</condition>
+
+	</animation>
+	<model>
+
+		<name>AIM-9 Sidewinder 1R</name>
+
+		<path>Aircraft/A-4K/Models/Stores/AIM-9/aim-9.xml</path>
+
+		<offsets>
+
+			<x-m>6.47595</x-m>
+
+			<y-m>2.10884</y-m>
+
+			<z-m>-0.45089</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<model>
+
+		<name>AIM-9 Sidewinder 1R</name>
+
+		<path>Aircraft/A-4K/Models/Stores/AIM-9/AIM-9_holder.xml</path>
+
+		<offsets>
+
+			<x-m>6.64595</x-m>
+
+			<y-m>2.10884</y-m>
+
+			<z-m>-0.41089</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<animation>
+
+		<type>select</type>
+
+		<object-name>AIM-9 Sidewinder 1R</object-name>
+
+		<condition>
+
+			<and>
+
+				<equals>
+
+					<property>sim/weight[3]/selected</property>
+
+					<value>AIM-9 Sidewinder</value>
+
+				</equals>
+
+			</and>
+
+		</condition>
+
+	</animation>
+	<model>
+
+		<name>2x LAU-5003 1R</name>
+
+		<path>Aircraft/A-4K/Models/Stores/LAU-5003/LAU-5003.xml</path>
+
+		<offsets>
+
+			<x-m>6.47595</x-m>
+
+			<y-m>2.10</y-m>
+
+			<z-m>-0.74</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<model>
+
+		<name>2x LAU-5003 1R</name>
+
+		<path>Aircraft/A-4K/Models/Stores/LAU-5003/LAU-5003.xml</path>
+
+		<offsets>
+
+			<x-m>6.47595</x-m>
+
+			<y-m>2.425</y-m>
+
+			<z-m>-0.41</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+	<model>
+
+		<name>2x LAU-5003 1R</name>
+
+		<path>Aircraft/A-4K/Models/Stores/tri-holder.xml</path>
+
+		<offsets>
+
+			<x-m>6.64595</x-m>
+
+			<y-m>2.08384</y-m>
+
+			<z-m>-0.11089</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<animation>
+
+		<type>select</type>
+
+		<object-name>2x LAU-5003 1R</object-name>
+
+		<condition>
+
+			<and>
+
+				<equals>
+
+					<property>sim/weight[3]/selected</property>
+
+					<value>2x LAU-5003</value>
+
+				</equals>
+
+			</and>
+
+		</condition>
+
+	</animation>
+
+	<model>
+
+		<name>Fuel droptank 1R</name>
+
+		<path>Aircraft/A-4K/Models/Stores/droptanks/droptank-300-right.xml</path>
+
+		<offsets>
+
+			<x-m>6.47595</x-m>
+
+			<y-m>2.10884</y-m>
+
+			<z-m>-0.0</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<animation>
+
+		<type>select</type>
+
+		<object-name>Fuel droptank 1R</object-name>
+
+		<condition>
+
+			<and>
+
+				<equals>
+
+					<property>sim/weight[3]/selected</property>
+
+					<value>Fuel droptank</value>
+
+				</equals>
+
+			</and>
+
+		</condition>
+
+	</animation>
+
+
+<!-- Pylon 2 R -->
+
+
+
+	<model>
+
+		<name>AGM-65 Maverick 2R</name>
+
+		<path>Aircraft/A-4K/Models/Stores/AGM-65/AGM-65.xml</path>
+
+		<offsets>
+
+			<x-m>7.35886</x-m>
+
+			<y-m>2.9281</y-m>
+
+			<z-m>-0.4539</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<model>
+
+		<name>AGM-65 Maverick 2R</name>
+
+		<path>Aircraft/A-4K/Models/Stores/AGM-65/AGM-65_holder.xml</path>
+
+		<offsets>
+
+			<x-m>7.35886</x-m>
+
+			<y-m>2.9281</y-m>
+
+			<z-m>-0.3039</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<animation>
+
+		<type>select</type>
+
+		<object-name>AGM-65 Maverick 2R</object-name>
+
+		<condition>
+
+			<and>
+
+				<equals>
+
+					<property>sim/weight[4]/selected</property>
+
+					<value>AGM-65 Maverick</value>
+
+				</equals>
+
+			</and>
+
+		</condition>
+
+	</animation>
+	<model>
+
+		<name>MK-82 HE 2R</name>
+
+		<path>Aircraft/A-4K/Models/Stores/Mk82/mk82.xml</path>
+
+		<offsets>
+
+			<x-m>7.35886</x-m>
+
+			<y-m>2.9281</y-m>
+
+			<z-m>-0.3289</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<animation>
+
+		<type>select</type>
+
+		<object-name>MK-82 HE 2R</object-name>
+
+		<condition>
+
+			<and>
+
+				<equals>
+
+					<property>sim/weight[4]/selected</property>
+
+					<value>MK-82 HE</value>
+
+				</equals>
+
+			</and>
+
+		</condition>
+
+	</animation>
+	<model>
+
+		<name>SUU-44 Flare Dispenser 2R</name>
+
+		<path>Aircraft/A-4K/Models/Stores/SUU-44/SUU-44.xml</path>
+
+		<offsets>
+
+			<x-m>7.35886</x-m>
+
+			<y-m>2.9281</y-m>
+
+			<z-m>-0.3039</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<animation>
+
+		<type>select</type>
+
+		<object-name>SUU-44 Flare Dispenser 2R</object-name>
+
+		<condition>
+
+			<and>
+
+				<equals>
+
+					<property>sim/weight[4]/selected</property>
+
+					<value>SUU-44 Flare Dispenser</value>
+
+				</equals>
+
+			</and>
+
+		</condition>
+
+	</animation>
+	<model>
+
+		<name>AIM-9 Sidewinder 2R</name>
+
+		<path>Aircraft/A-4K/Models/Stores/AIM-9/aim-9.xml</path>
+
+		<offsets>
+
+			<x-m>7.35886</x-m>
+
+			<y-m>2.9281</y-m>
+
+			<z-m>-0.4200</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<model>
+
+		<name>AIM-9 Sidewinder 2R</name>
+
+		<path>Aircraft/A-4K/Models/Stores/AIM-9/AIM-9_holder.xml</path>
+
+		<offsets>
+
+			<x-m>7.53000</x-m>
+
+			<y-m>2.9281</y-m>
+
+			<z-m>-0.3800</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+	<animation>
+
+		<type>select</type>
+
+		<object-name>AIM-9 Sidewinder 2R</object-name>
+
+		<condition>
+
+			<and>
+
+				<equals>
+
+					<property>sim/weight[4]/selected</property>
+
+					<value>AIM-9 Sidewinder</value>
+
+				</equals>
+
+			</and>
+
+		</condition>
+
+	</animation>
+	<model>
+
+		<name>LAU-5003 2R</name>
+
+		<path>Aircraft/A-4K/Models/Stores/LAU-5003/LAU-5003.xml</path>
+
+		<offsets>
+
+			<x-m>7.35886</x-m>
+
+			<y-m>2.9281</y-m>
+
+			<z-m>-0.3789</z-m>
+
+			<roll-deg>0</roll-deg>
+
+		</offsets>
+
+	</model>
+
+	<animation>
+
+		<type>select</type>
+
+		<object-name>LAU-5003 2R</object-name>
+
+		<condition>
+
+			<and>
+
+				<equals>
+
+					<property>sim/weight[4]/selected</property>
+
+					<value>LAU-5003</value>
+
+				</equals>
+
+			</and>
+
+		</condition>
+
+	</animation>
+
+</PropertyList>
