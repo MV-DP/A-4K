@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+
+
+<PropertyList>
+
+ 
+ <path>BRefueling_pod.ac</path>
+ 
+ <animation>
+  <type>spin</type>
+  <object-name>prop</object-name>
+  <factor>1</factor>
+  <property>velocities/airspeed-kt</property>
+  <center>
+   <x-m>0</x-m>
+   <y-m>0.00130</y-m>
+   <z-m>-0.00277</z-m>
+  </center>
+  <axis>
+   <x>1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+ 
+<animation>
+ <type>pick</type>
+ <object-name>refuelingpod</object-name>
+ <action>
+  <button>0</button>
+  <repeatable>false</repeatable>
+  <binding>
+   <command>property-toggle</command>
+   <property>controls/lighting/probe</property>
+  </binding>
+ </action>
+</animation>
+
+<animation>
+ <type>select</type>
+ <object-name>Refuelprobe</object-name>
+ <condition>
+  <property>/controls/lighting/probe</property>
+ </condition>
+</animation>
+
+</PropertyList>
