@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+
+<PropertyList>
+
+
+<path>Screen.ac</path>
+
+<!--<model>
+<path>Aircraft/A-4K/Models/Cockpit/Instruments/Screen/mfd_left.xml</path>
+</model>-->
+<model>
+<path>Aircraft/Instruments-3d/radar2/radar-screen.xml</path>
+</model>
+</PropertyList>
