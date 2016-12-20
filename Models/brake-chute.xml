@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+<PropertyList>
+  <path>chute.ac</path>
+
+  <animation>
+    <type>select</type>
+    <object-name>brake-chute</object-name>
+    <condition>
+      <equals>
+        <property>surface-positions/drag-chute/state</property>
+        <value>opened</value>
+      </equals>
+
+    </condition>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>brake-chute</object-name>
+    <property>orientation/chute/roll-deg</property>
+    <factor>1</factor>
+    <offset-deg>0</offset-deg>
+    <center>
+      <x-m>0</x-m>
+      <y-m>0</y-m>
+      <z-m>0</z-m>
+    </center>
+    <axis>
+      <x>1</x>
+      <y>0</y>
+      <z>0</z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>brake-chute</object-name>
+    <property>orientation/chute/pitch-deg</property>
+    <factor>1</factor>
+    <offset-deg>0</offset-deg>
+    <center>
+      <x-m>0</x-m>
+      <y-m>0</y-m>
+      <z-m>0</z-m>
+    </center>
+    <axis>
+      <x>0</x>
+      <y>1</y>
+      <z>0</z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>brake-chute</object-name>
+    <property>orientation/chute/yaw-deg</property>
+    <factor>1</factor>
+    <offset-deg>0</offset-deg>
+    <center>
+      <x-m>0</x-m>
+      <y-m>0</y-m>
+      <z-m>0</z-m>
+    </center>
+    <axis>
+      <x>0</x>
+      <y>0</y>
+      <z>1</z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>canopy-closed</object-name>
+    <object-name>lines-closed</object-name>
+    <condition>
+      <equals>
+        <property>surface-positions/drag-chute/state</property>
+        <value>deployed</value>
+      </equals>
+
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>strop-closed</object-name>
+    <condition>
+      <equals>
+        <property>surface-positions/drag-chute/state</property>
+        <value>deployed</value>
+      </equals>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>brake-chute-closed</object-name>
+    <property>orientation/chute/roll-deg</property>
+    <factor>1</factor>
+    <offset-deg>0</offset-deg>
+    <center>
+      <x-m>0</x-m>
+      <y-m>0</y-m>
+      <z-m>0</z-m>
+    </center>
+    <axis>
+      <x>1</x>
+      <y>0</y>
+      <z>0</z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>brake-chute-closed</object-name>
+    <property>orientation/chute/pitch-deg</property>
+    <factor>1</factor>
+    <offset-deg>0</offset-deg>
+    <center>
+      <x-m>0</x-m>
+      <y-m>0</y-m>
+      <z-m>0</z-m>
+    </center>
+    <axis>
+      <x>0</x>
+      <y>1</y>
+      <z>0</z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>brake-chute-closed</object-name>
+    <property>orientation/chute/yaw-deg</property>
+    <factor>1</factor>
+    <offset-deg>0</offset-deg>
+    <center>
+      <x-m>0</x-m>
+      <y-m>0</y-m>
+      <z-m>0</z-m>
+    </center>
+    <axis>
+      <x>0</x>
+      <y>0</y>
+      <z>1</z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>canopy-closed</object-name>
+    <object-name>lines-closed</object-name>
+    <property>surface-positions/drag-chute-pos-norm</property>
+    <factor>5</factor>
+    <offset-m>-5</offset-m>
+    <axis>
+      <x>1</x>
+      <y>0</y>
+      <z>0</z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>scale</type>
+    <object-name>strop-closed</object-name>
+    <property>surface-positions/drag-chute-pos-norm</property>
+    <x-factor>1</x-factor>
+    <x-offset>0</x-offset>
+  </animation>
+
+</PropertyList>
