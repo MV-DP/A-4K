@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+
+
+
+<PropertyList>
+ <path>LAU-5003.ac</path>
+ <animation n="100">
+  <type>scale</type>
+  <property>constants/zero</property>
+  <x-offset>0.7</x-offset>
+  <y-offset>0.7</y-offset>
+  <z-offset>0.7</z-offset>
+ </animation>
+
+
+</PropertyList>
