@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<!DOCTYPE PropertyList SYSTEM "panel.dtd">
+<PropertyList>
+
+ <name>A4 Panel</name>
+ <background>Aircraft/a4/transparent-bg.rgb</background>
+ <w>1024</w>
+ <h>580</h>
+ <y-offset>0</y-offset>
+ <view-height>450</view-height>
+
+ <instruments>
+
+ <instrument include="../Instruments/clock.xml">
+   <name>Chronometer</name>
+   <x>680</x>
+   <y>360</y>
+   <w>90</w>
+   <h>90</h>
+  </instrument>
+
+  <instrument include="../Instruments/aoa.xml">
+   <name>Angle of Attack</name>
+   <x>320</x>
+   <y>360</y>
+   <w>100</w>
+   <h>100</h>
+  </instrument>
+
+  <instrument include="../Instruments/accel.xml">
+   <name>G meter</name>
+   <x>680</x>
+   <y>240</y>
+   <w>100</w>
+   <h>100</h>
+  </instrument>
+
+  <instrument include="../Instruments/asi-590-knot-a4c.xml">
+   <name>Airspeed Indicator</name>
+   <x>160</x>
+   <y>260</y>
+   <w>110</w>
+   <h>110</h>
+  </instrument>
+  
+  <instrument include="fuel-gauge.xml">
+   <name>Fuel Gauge</name>
+   <x>590</x>
+   <y>140</y>
+   <w>110</w>
+   <h>110</h>
+  </instrument>
+
+  <!-- Taken out, to make room for the 3D attitude ball -->
+
+  <instrument include="../Instruments/altimeter.xml">
+   <name>Altimeter</name>
+   <x>160</x>
+   <y>20</y>
+   <w>110</w>
+   <h>110</h>
+  </instrument>
+
+  <instrument include="../Instruments/hsi.xml">
+   <name>Horizontal Situation Indicator</name>
+   <x>590</x>
+   <y>20</y>
+   <w>110</w>
+   <h>110</h>
+  </instrument>
+
+  <instrument include="../Instruments/vertical-speed-6kfpm.xml">
+   <name>Vertical Velocity Indicator</name>
+   <x>160</x>
+   <y>140</y>
+   <w>110</w>
+   <h>110</h>
+  </instrument>
+
+  <instrument include="../Instruments/n1.xml">
+   <name>Engine Tachometer</name>
+   <x>800</x>
+   <y>240</y>
+   <w>100</w>
+   <h>100</h>
+  </instrument>
+
+  <instrument include="../Instruments/gear-indicator.xml">
+   <name>Gear Indicator Light</name>
+   <x>800</x>
+   <y>360</y>
+   <w>40</w>
+   <h>17</h>
+  </instrument>
+  
+  <instrument include="../Instruments/brakes.xml">
+   <name>Brake Indicator Light</name>
+   <x>800</x>
+   <y>340</y>
+   <w>40</w>
+   <h>17</h>
+  </instrument>
+
+  <instrument include="../Instruments/throttle-knob.xml">
+   <name>Throttle quadrant</name>
+   <x>885</x>
+   <y>40</y>
+  </instrument>
+
+  <instrument include="../Instruments/flap.xml">
+   <name>Flaps Control</name>
+   <x>797</x>
+   <y>40</y>
+   <w>50</w>
+   <h>75</h>
+  </instrument>
+ </instruments>
+
+</PropertyList>
+
+
+
