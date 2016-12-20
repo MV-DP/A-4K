@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+  <path>fuel-flow.ac</path>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>needle</object-name>
+    <property>/engines/engine[0]/fuel-flow-gph</property>
+    <interpolation>
+      <entry><ind>0</ind><dep>0</dep></entry>
+      <entry><ind>73.5</ind><dep>0</dep></entry>
+      <entry><ind>147</ind><dep>22</dep></entry>
+      <entry><ind>441</ind><dep>108</dep></entry>
+      <entry><ind>735</ind><dep>196</dep></entry>
+      <entry><ind>1470</ind><dep>244</dep></entry>
+      <entry><ind>2205</ind><dep>266</dep></entry>
+    </interpolation>
+    <axis>
+      <x>-1</x>
+      <y>0</y>
+      <z>0r</z>
+    </axis>
+  </animation>
+
+  <!-- *** LoD *** -->
+  <animation>
+    <type>range</type>
+    <min-m>0</min-m>
+    <max-m>5</max-m>
+  </animation>
+
+</PropertyList>

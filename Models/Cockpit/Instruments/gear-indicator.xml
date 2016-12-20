@@ -1,0 +1,193 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+	<path>gear-indicator.ac</path>
+
+	<animation>
+		<type>rotate</type>
+		<object-name>FlapIndicator</object-name>
+		<property>surface-positions/flap-pos-norm</property>
+        <interpolation>
+            <entry>
+                <ind>0</ind>
+                <dep>0</dep>
+            </entry>
+            <entry>
+                <ind>1</ind>
+                <dep>-60</dep>
+            </entry>
+        </interpolation>
+        <center>
+        <x-m>-0.004</x-m>
+        <y-m>0.019</y-m>
+        <z-m>-0.0225</z-m>
+        </center>
+        <axis>
+            <x>0</x>
+            <y>0</y>
+            <z>1</z>
+        </axis>
+    </animation>
+
+
+	<animation>
+		<type>select</type>
+		<object-name>NoseIndicatorUp</object-name>
+		<condition>
+			<equals>
+				<property>gear/gear[0]/position-norm</property>
+				<value>0</value>
+			</equals>
+		</condition>
+	</animation>
+
+	<animation>
+		<type>select</type>
+		<object-name>LeftIndicatorUp</object-name>
+		<condition>
+			<equals>
+				<property>gear/gear[1]/position-norm</property>
+				<value>0</value>
+			</equals>
+		</condition>
+	</animation>
+
+	<animation>
+		<type>select</type>
+		<object-name>RightIndicatorUp</object-name>
+		<condition>
+			<equals>
+				<property>gear/gear[2]/position-norm</property>
+				<value>0</value>
+			</equals>
+		</condition>
+	</animation>
+
+		<animation>
+		<type>select</type>
+		<object-name>NoseIndicatorUnsafe</object-name>
+		<condition>
+			<and>
+				<not>
+					<equals>
+						<property>gear/gear[0]/position-norm</property>
+						<value>1</value>
+					</equals>
+
+				</not>
+				<not>
+					<equals>
+						<property>gear/gear[0]/position-norm</property>
+						<value>0</value>
+					</equals>
+				</not>
+			</and>
+		</condition>
+	</animation>
+
+	<animation>
+		<type>select</type>
+		<object-name>LeftIndicatorUnsafe</object-name>
+		<condition>
+			<and>
+				<not>
+					<equals>
+						<property>gear/gear[1]/position-norm</property>
+						<value>1</value>
+					</equals>
+
+				</not>
+				<not>
+					<equals>
+						<property>gear/gear[1]/position-norm</property>
+						<value>0</value>
+					</equals>
+				</not>
+			</and>
+		</condition>
+	</animation>
+
+	<animation>
+		<type>select</type>
+		<object-name>RightIndicatorUnsafe</object-name>
+		<condition>
+			<and>
+				<not>
+					<equals>
+						<property>gear/gear[2]/position-norm</property>
+						<value>1</value>
+					</equals>
+
+				</not>
+				<not>
+					<equals>
+						<property>gear/gear[2]/position-norm</property>
+						<value>0</value>
+					</equals>
+				</not>
+			</and>
+		</condition>
+	</animation>
+
+	<animation>
+		<type>select</type>
+		<object-name>NoseIndicatorDown</object-name>
+		<condition>
+			<equals>
+				<property>gear/gear[0]/position-norm</property>
+				<value>1</value>
+			</equals>
+		</condition>
+	</animation>
+
+	<animation>
+		<type>select</type>
+		<object-name>LeftIndicatorDown</object-name>
+		<condition>
+			<equals>
+				<property>gear/gear[1]/position-norm</property>
+				<value>1</value>
+			</equals>
+		</condition>
+	</animation>
+
+	<animation>
+		<type>select</type>
+		<object-name>RightIndicatorDown</object-name>
+		<condition>
+			<equals>
+				<property>gear/gear[2]/position-norm</property>
+				<value>1</value>
+			</equals>
+		</condition>
+	</animation>
+
+	<!-- lighting -->
+	<animation>
+		<object-name>FlapIndicator</object-name>
+		<object-name>NoseIndicatorUp</object-name>
+		<object-name>NoseIndicatorUnsafe</object-name>
+		<object-name>NoseIndicatorDown</object-name>
+		<object-name>LeftIndicatorUp</object-name>
+		<object-name>LeftIndicatorUnsafe</object-name>
+		<object-name>LeftIndicatorDown</object-name>
+		<object-name>RightIndicatorUp</object-name>
+		<object-name>RightIndicatorUnsafe</object-name>
+		<object-name>RightIndicatorDown</object-name>
+		<type>material</type>
+		<emission>
+			<factor-prop>sim/model/a4/controls/lighting/index-norm</factor-prop>
+			<red>0.8</red>
+			<green>0.8</green>
+			<blue>0.8</blue>
+		</emission>
+	</animation>
+
+	<animation>
+		<type>range</type>
+		<min-m>0</min-m>
+		<max-m>35</max-m>
+	</animation>
+
+</PropertyList>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+  <path>fuel.ac</path>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>needle</object-name>
+    <property>/consumables/fuel/total-fuel-lbs</property>
+    <interpolation>
+      <entry><ind>0</ind><dep>210</dep></entry>
+      <entry><ind>3000</ind><dep>360</dep></entry>
+      <entry><ind>6000</ind><dep>510</dep></entry>
+    </interpolation>
+    <axis>
+      <x>-1</x>
+      <y>0</y>
+      <z>0</z>
+    </axis>
+  </animation>
+
+  <!-- *** LoD *** -->
+  <animation>
+    <type>range</type>
+    <min-m>0</min-m>
+    <max-m>5</max-m>
+  </animation>
+
+</PropertyList>
